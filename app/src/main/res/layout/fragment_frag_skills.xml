@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragSkills">
+    <RadioGroup
+        android:layout_width="355dp"
+        android:layout_height="111dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_border"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<TextView
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Skills"
+    android:textAlignment="center"
+    android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+<TextView
+    android:id="@+id/tAnd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="android"
+    android:layout_weight="1"
+    android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/tIos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IOS"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/tFlut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flutter"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <SeekBar
+            android:id="@+id/sk1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <SeekBar
+            android:id="@+id/sk2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <SeekBar
+            android:id="@+id/sk3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </RadioGroup>
+
+
+
+
+</LinearLayout>

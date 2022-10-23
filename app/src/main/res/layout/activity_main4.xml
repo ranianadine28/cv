@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:fitsSystemWindows="true"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/menu"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="370dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/android_robot_svg" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobbies"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Languages"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/colorPrimary"/>
+
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="400dp"
+        android:layout_height="220dp">
+      <FrameLayout
+    android:id="@+id/fragFl"
+    android:name="com.example.mytest.FragSkills"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/career"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="My career"
+        android:backgroundTint="@color/colorSecondaryDark"/>
+
+</LinearLayout>
